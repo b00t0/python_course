@@ -27,6 +27,9 @@ share/python-wheels/
 MANIFEST
 bin/
 lib/
+.folder/bin
+.folder/lib
+.folder/pyvenv.cfg
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
