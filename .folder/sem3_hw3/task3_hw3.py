@@ -29,3 +29,12 @@ k = 'ноутбук'
 # 12
 """
 
+scrabble = {"AEIOULNSTRАВЕИНОРСТ": 1, "DGДКЛМПУ":2, "BCMPБГЁЬЯ":3, "FHVWYЙЫ":4, "KЖЗХЦЧ":5, "JXШЭЮ":8, "QZФЩЪ":10}
+k = (input('Enter the desired word: ')).upper()
+cost = 0
+for element in k:
+    for block, value in scrabble.items():
+        if element in block:
+            cost += value
+
+print(cost)
