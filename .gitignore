@@ -30,6 +30,7 @@ lib/
 .folder/bin
 .folder/lib
 .folder/pyvenv.cfg
+.folder/share
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
